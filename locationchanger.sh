@@ -1,6 +1,6 @@
 #!/bin/bash
 
-INSTALL_DIR=/usr/local/bin
+INSTALL_DIR=~/.locations
 SCRIPT_NAME=$INSTALL_DIR/locationchanger
 LAUNCH_AGENTS_DIR=$HOME/Library/LaunchAgents
 PLIST_NAME=$LAUNCH_AGENTS_DIR/LocationChanger.plist

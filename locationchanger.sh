@@ -71,7 +71,7 @@ fi
 EOT
 
 sudo chmod +x $SCRIPT_NAME
-ln -s $SCRIPT_NAME /usr/local/bin/locationchanger
+ln -sfh $SCRIPT_NAME /usr/local/bin/locationchanger
 
 mkdir -p $LAUNCH_AGENTS_DIR
 cat > $PLIST_NAME << EOT
